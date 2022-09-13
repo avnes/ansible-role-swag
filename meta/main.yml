@@ -12,13 +12,21 @@ galaxy_info:
   platforms:
     - name: Fedora
       versions:
-        - "any"
+        - 35
+        - 36
     - name: Ubuntu
       versions:
-        - "any"
+        - bionic
+        - cosmic
+        - disco
+        - eoan
+        - focal
+        - groovy
+        - hirsute
+        - impish
     - name: EL
       versions:
-        - "any"
+        - 8
 
   galaxy_tags:
     - golang
