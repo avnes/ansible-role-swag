@@ -1,0 +1,30 @@
+---
+galaxy_info:
+  role_name: swag
+  author: avnes
+  description: Will install swag CLI from https://github.com/swaggo/swag
+  company:
+
+  license: license (MIT)
+
+  min_ansible_version: 2.11
+
+  platforms:
+    - name: Fedora
+      versions:
+        - "any"
+    - name: Ubuntu
+      versions:
+        - "any"
+    - name: EL
+      versions:
+        - "any"
+
+  galaxy_tags:
+    - golang
+    - openapi
+    - rest
+    - cli
+    - swag
+
+dependencies: []
